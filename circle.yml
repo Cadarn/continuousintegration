@@ -8,6 +8,6 @@ dependencies:
   pre:
     - pip install pytest
 
-tests:
+test:
   override:
     - py.test -v
